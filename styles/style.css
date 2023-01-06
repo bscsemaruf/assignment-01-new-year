@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    background-image: url('../images/banner/banner1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: right;
+
+}
+.headline{
+    
+    padding: 216px 230px 24px 845px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    width: 30%;
+    
+}
+.description{
+ 
+    padding: 0 230px 32px 845px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 30%;
+    
+}
+.header-btn{
+    margin-right: 165px;
+    margin-bottom: 166px;
+    padding: 15px 18px;
+    font-weight: 600;
+    background-color: #F15B22;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
