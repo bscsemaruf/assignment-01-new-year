@@ -4,8 +4,6 @@
 }
 .header-container{
     background-image: url('../images/banner/banner1.png');
-    background-attachment: fixed;
-    background-size: cover;
     text-align: right;
 
 }
@@ -36,4 +34,37 @@
     border-radius: 5px;
     color: white;
     border: none;
+}
+.about-me{
+    display: flex;
+}
+.about-me img{
+    margin: 130px 87px 130px 206px;
+    height: 650px;
+}
+.details{
+    margin: 370px 300px 214px 0;
+}
+.details h3{
+    font-weight: 700;
+    line-height: 25px;
+    width: 140px;
+    padding-bottom: 24px;
+
+}
+.details p{
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+.details ul{
+    list-style: none;
+}
+.details li{
+    line-height: 25px;
+    width: 400px;
+}
+.details li::before{
+    content: '✓';
+    color: lightgreen;
+    padding-right: 5px;
 }
