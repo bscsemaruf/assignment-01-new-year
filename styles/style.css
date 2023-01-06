@@ -4,6 +4,7 @@
 }
 .header-container{
     background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
     text-align: right;
 
 }
@@ -43,7 +44,7 @@
     height: 650px;
 }
 .details{
-    margin: 370px 300px 214px 0;
+    margin: 370px 300px 200px 0;
 }
 .details h3{
     font-weight: 700;
@@ -67,4 +68,41 @@
     content: '✓';
     color: lightgreen;
     padding-right: 5px;
+}
+.plans-container h3{
+    text-align: center;
+    margin-top: -80px; 
+    padding-bottom: 20px;
+}
+.plans{
+    display: flex;
+    margin-left: 27%;
+    /* align-items:center; */
+}
+.plans div{
+    padding: 20px 30px;
+    text-align: center;
+}
+.plans div img{
+    width: 50%;
+}
+.plans div h4{
+    padding: 10px 0;
+}
+.gradient-part{
+    margin: 20px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+}
+.gradient-part h3{
+   padding: 50px 0 20px 200px;
+
+}
+.call-btn{
+    margin-left: 200px;
+    margin-bottom: 30px;
 }
