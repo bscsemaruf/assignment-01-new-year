@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* header section */
 .header-container{
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
@@ -36,6 +37,7 @@
     color: white;
     border: none;
 }
+/* main section */
 .about-me{
     display: flex;
 }
@@ -69,6 +71,7 @@
     color: lightgreen;
     padding-right: 5px;
 }
+/* plan section */
 .plans-container h3{
     text-align: center;
     margin-top: -80px; 
@@ -78,6 +81,7 @@
     display: flex;
     margin-left: 27%;
     /* align-items:center; */
+
 }
 .plans div{
     padding: 20px 30px;
@@ -85,24 +89,99 @@
 }
 .plans div img{
     width: 50%;
+    height: 50%;
+
 }
 .plans div h4{
     padding: 10px 0;
 }
+
 .gradient-part{
-    margin: 20px;
-    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    margin-top: 20px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    /* background-image: linear-gradient(to left,gray, orange),url('../images/watch.png'); */
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-position: center;
-    
-    
-    
+    border-radius: 5px;
+    margin-left: 170px; 
 }
 .gradient-part h3{
-   padding: 50px 0 20px 200px;
+   padding: 50px 0 20px 60px;
+   width: 25%;
+   line-height: 30px;
+   font-weight:700;
+   color: white;
+   font-size: 28px;
 
 }
 .call-btn{
-    margin-left: 200px;
-    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    padding: 15px 18px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 5px;
+    color:  #F15B22;
+    border: none;
+}
+/* footer section */
+.footer-container{
+    display: flex;
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: black;
+}
+.future{
+
+    width: 40%;
+    padding-left: 170px;
+    color: white;
+    
+}
+.future h3{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.future p{
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.social-icon{
+    padding-top: 10px;
+    margin-bottom: 100px;
+    
+}
+.social-icon img{
+    width: 40px;
+    padding-right: 10px;
+}
+.subscribe{
+    color: white;
+    padding-left: 160px;
+}
+.subscribe h3{
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.subscribe-input{
+    margin-bottom: 20px;
+    padding: 20px 80px 20px 15px;
+    border:1px solid white;
+    background-color: black;
+    border-radius: 5px;
+    color: aliceblue;
+    
+}
+::placeholder{
+    color: white;
+}
+.subscribe-btn{
+    padding: 15px 18px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 5px;
+    color:  #F15B22;
+    border: none;
 }
